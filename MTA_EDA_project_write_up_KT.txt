@@ -1,0 +1,30 @@
+Kenan Turkmeneli
+E.D.A Final Project Write-up
+
+### Data Analysis of NYC Turnstile Data to Compare Pre and Post Covid Patterns of Foot Traffic
+
+### Abstract
+
+The Goal of this Project is to use NYC turnstile dataset ( http://web.mta.info/developers/turnstile.html ) to identify any changes in foot traffic patterns in NYC area between pre covid 2019, and post covid 2021. My client New York Food Truck Association (https://nyfta.org/) requires assistance to know any changes in the patterns to help optimize food truck locations of their members.
+
+### Design
+
+Data is provided by Metropolitan Transportation Authority (MTA). Including incoming and outgoing foot traffic of NYC's entire metro structure, one turnstile at a time.
+
+### Data
+
+A weekly data set contains 250k lines of data of all turnstiles in the city for all 350+ stations. Initial data consists of 11 columns. 2 of them are numerical, 2 of them representing data and time of the data and the rest are categorical data representing each turnstile in all stations. After careful analysis of data and cleaning out unwanted lines many new data sets have been formed to futher analyse the situation.
+
+### Algorithms
+
+No complicated algorithms is used. Only data cleaning and grouping for visializations.
+
+### Tools
+    
+SQL is used to download the data. Python and its libraries is used for Data cleaning, analysis and visualizations ( Pandas , Numpy, Matplotlib, Seaborn, Datetime etc.).
+    
+### Communication
+
+Detailed files and cleaned data can be found in github: 
+https://github.com/monkeyrampage/EDA
+
