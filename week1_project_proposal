@@ -1,0 +1,38 @@
+
+Kenan Turkmeneli
+E.D.A week 1 , project proposal
+
+Questions:
+
+1) My project is about identifying the busiest locations in NYC:
+	a) on different days (i.e. weekdays and weekends) 
+	b) in different time slots of the day (i.e. morning rush hour, launch break time, evening rush hour)
+	
+2) My client is New York Food Truck Association(https://nyfta.org/). They are giving supporting services to those who want to get a license and operate a food truck within NYC limits. Since the covid, most people started to work from homes and old favorable locations are not that great anymore. So they are looking for a data scientist to figure out the post-covid patterns in the city for the new favorable locations.
+
+Data Description:
+
+1) I will be using NYC turnstile dataset:
+http://web.mta.info/developers/turnstile.html
+
+2) a single line of the data looks like below:
+
+C\A,UNIT,SCP,STATION,LINENAME,DIVISION,DATE,TIME,DESC,ENTRIES,EXITS                                                               
+A002,R051,02-00-00,59 ST,NQR456W,BMT,03/26/2022,00:00:00,REGULAR,0007697197,0002683684
+
+includes enter/exit data for every station in NYC with 4-h dite durations (8-12 , 12-4, 4-8 etc)
+
+3) I am intereted in station name, data, time , entires and exits
+
+Tools:
+
+1) I will be using using SQL to create desired databases and use pandas to clear data and do the neccessery adjustments and visualize my results using matplotlib and seaborn.
+
+
+$$$$$$$$$$$$$$$$$$$
+Potential improvements along the way:
+1) Does seasons effect the outcome; due to tourist population etc, how does those optimal locations/days/times behave? Is there any different pattern of behaviours in different seasons
+
+2) If I can establish a baseline for before covid numbers, I can compare them to the post covid values
+
+3) HARD ONE: try overlaying a dataset of operating restaurants by zip code. So I can optimize the locations according to the competition with diners around the stations.
